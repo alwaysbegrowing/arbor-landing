@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'neue-haas-bold';
+    src: url('./assets/fonts/NeueHaasDisplayBlack.ttf');
+}
+
+@font-face {
+    font-family: 'neue-haas-light';
+    src: url('./assets/fonts/NeueHaasDisplayLight.ttf');
+}
+
+@font-face {
+    font-family: 'neue-haas-medium';
+    src: url('./assets/fonts/NeueHaasDisplayMediu.ttf');
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
