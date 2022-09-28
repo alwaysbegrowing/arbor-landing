@@ -17,7 +17,7 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_642_1200" result="shape"/>
 </filter>
 <radialGradient id="paint0_radial_642_1200" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(596 376.5) rotate(90) scale(376.5 589)">
-<stop stop-color="#AE20F2"/>
+<stop stop-color="#17f215"/>
 <stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
 </radialGradient>
 </defs>
