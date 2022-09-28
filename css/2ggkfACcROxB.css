@@ -4840,8 +4840,6 @@ figcaption {
   width: 100%;
   align-items: center;
   margin: 0 auto;
-  max-width: 400px;
-  max-height: 400px;
   height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
