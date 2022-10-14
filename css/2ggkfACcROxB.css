@@ -3155,14 +3155,6 @@ figcaption {
 }
 
 .btn.is--polygon {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    to(#fff)
-  );
-  background-image: linear-gradient(180deg, #fff, #fff);
   color: #8247e5;
 }
 
