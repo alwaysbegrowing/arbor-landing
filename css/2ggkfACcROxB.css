@@ -3128,7 +3128,7 @@ figcaption {
   align-items: center;
   border-radius: 0.75rem;
   background-color: #151515;
-  background-image: linear-gradient(110deg, #17f215, #ead176 90%);
+  background-image: linear-gradient(110deg, #1af110, #9bf915 90%);
   font-family: Manrope, sans-serif;
   color: #151515;
   font-size: 1rem;
@@ -5572,7 +5572,7 @@ figcaption {
   }
 
   .nav_menu-btn.w--open {
-    background-color: #17f215;
+    background-color: #1af110;
   }
 
   .btn {
