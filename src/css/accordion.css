@@ -1,0 +1,33 @@
+/* According Arrow */
+.accordion__item > .accordion-header:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  content: "\f077";
+  color: #fff;
+  float: right;
+  position: relative;
+  display: block;
+  top: 2px;
+  transition: 0.3s all;
+  transform: rotate(-180deg);
+  opacity: 100;
+}
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(0deg);
+}
+
+.accordion-body.js-accordion-body {
+  display: none;
+}
+
+.accordion__item.active > .accordion-header > .accordion_question-wrap > h3 {
+  opacity: 1;
+  color: #ffffff;
+}
+
+.accordion__item > .accordion-header > .accordion_question-wrap > h3 {
+  opacity: 0.66;
+  color: #959cb1;
+}
