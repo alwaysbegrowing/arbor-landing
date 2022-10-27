@@ -44,5 +44,7 @@ bondGraph("https://api.thegraph.com/subgraphs/name/alwaysbegrowing/arbor-v1", {
   }
   //Add element to DOM
   const ddUpdate = document.getElementById("collateral");
-  ddUpdate.appendChild(document.createTextNode(collateral));
+  ddUpdate.appendChild(
+    document.createTextNode("$" + collateral.toLocaleString())
+  );
 });
