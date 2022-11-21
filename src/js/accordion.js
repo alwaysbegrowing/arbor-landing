@@ -47,13 +47,13 @@ var accordion = (function () {
       // show/hide the clicked accordion item
       $this.closest(".js-accordion-item").toggleClass("active");
 
-      if ($(".js-accordion-item.active").index() == 0) {
+      if ($("#features>.js-accordion-item.active").index() == 0) {
         $(".faq_img-wrap").hide();
         $(".faq_img-wrap.is--1").show();
-      } else if ($(".js-accordion-item.active").index() == 1) {
+      } else if ($("#features>.js-accordion-item.active").index() == 1) {
         $(".faq_img-wrap").hide();
         $(".faq_img-wrap.is--2").show();
-      } else if ($(".js-accordion-item.active").index() == 2) {
+      } else if ($("#features>.js-accordion-item.active").index() == 2) {
         $(".faq_img-wrap").hide();
         $(".faq_img-wrap.is--3").show();
       } else {
@@ -69,6 +69,6 @@ $(document).ready(function () {
   accordion.init({ speed: 300, oneOpen: true });
   $(".faq_img-wrap").hide();
   setTimeout(function () {
-    $(".js-accordion-item:first > .js-accordion-header").trigger("click");
+    $(".js-accordion-item:first-child > .js-accordion-header").trigger("click");
   }, 10);
 });
