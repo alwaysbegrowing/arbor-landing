@@ -188,6 +188,7 @@ th {
     format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 [class^="w-icon-"],
 [class*=" w-icon-"] {
@@ -2068,6 +2069,7 @@ textarea.w-select {
 body {
   background-color: #000;
   font-family: Manrope, sans-serif;
+  font-display: swap;
   color: #fff;
   font-size: 1rem;
   line-height: 1.5;
@@ -3130,6 +3132,7 @@ figcaption {
   background-color: #151515;
   background-image: linear-gradient(110deg, #1af110, #9bf915 90%);
   font-family: Manrope, sans-serif;
+  font-display: swap;
   color: #151515;
   font-size: 1rem;
   line-height: 1.75;
@@ -3727,6 +3730,7 @@ figcaption {
   font-size: 1.125rem;
   line-height: 150%;
   font-weight: 700;
+  font-display: swap;
 }
 
 .faq_grid {
